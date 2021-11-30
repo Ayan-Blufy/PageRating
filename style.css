@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.gray {
+    color: rgb(145, 144, 144);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #74b9ff;
+}
+
+.card_rate {
+    width: 60%;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0px 1px 5px 9px rgba(0, 0, 0, 0.35);
+}
+
+.card_rate h1 {
+    margin-bottom: 2rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.card_rate img {
+    margin: 4rem 0;
+    width: 80%;
+}
+
+.card_rate .star {
+    font-size: 4rem;
+    color: rgb(145, 144, 144);
+}
+
+.card_rate .title {
+    width: 80%;
+    letter-spacing: .1rem;
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem;
+    background-color: #00cec9;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fas {
+    /* border: 1px solid black; */
+    padding-right: 1rem;
+    cursor: pointer;
+    /* transition: all 0.2s ease-in-out; */
+}
+
+
+/* .fas:hover {
+    color: orange;
+} */
+
+.bt {
+    border: 0;
+    letter-spacing: .2rem;
+    padding: 1rem 4rem;
+    font-size: 1.5rem;
+    background-color: #74b9ff;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: all 0.4s ease-in-out;
+}
+
+.bt:hover {
+    background-color: #0984e3;
+}
+
+@media screen and (max-width:768px) {
+    .card_rate {
+        width: 100%;
+        padding: 1rem;
+    }
+    .card_rate h1 {
+        font-size: 1.8rem;
+    }
+    .card_rate .title {
+        width: 80%;
+        font-size: 1.3rem;
+    }
+    .card_rate .star {
+        font-size: 2rem;
+    }
+    .card_rate img {
+        width: 90%;
+        margin: 2rem 0;
+    }
+    .bt {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+}
